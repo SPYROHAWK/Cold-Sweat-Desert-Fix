@@ -94,6 +94,7 @@ public class WaterskinItem extends Item
     }
 
     @Override
+    /*
     public InteractionResultHolder<ItemStack> use(Level level, Player player, InteractionHand hand)
     {
         InteractionResultHolder<ItemStack> ar = super.use(level, player, hand);
@@ -116,6 +117,7 @@ public class WaterskinItem extends Item
             return ar;
         }
     }
+    */
 
     public static ItemStack getFilledItem(ItemStack stack, Level level, BlockPos pos)
     {
